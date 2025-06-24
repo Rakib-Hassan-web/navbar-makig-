@@ -29,10 +29,33 @@ justify-content: space-around;
 }
 
 .logo {
-    width: 100px;
+    width: 130px;
+    transition: all linear .4s;
+}
+.logo:hover{
+
+    transform: scale(1.2);
+    /* background: #ded6df !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px; */
 }
 
 
+.navitems {
+
+
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+
+}
+
+
+.navitems a{
+
+    font-size: 25px;
+    color: white;
+}
 
 
 
